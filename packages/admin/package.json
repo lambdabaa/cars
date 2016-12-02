@@ -1,0 +1,9 @@
+{
+  "name": "@carsnag/admin",
+  "version": "0.0.0",
+  "bin": "./build/admin.js",
+
+  "dependencies": {
+    "@carsnag/datastore": "file:../datastore"
+  }
+}

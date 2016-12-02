@@ -1,0 +1,8 @@
+{
+  "name": "@carsnag/analysis",
+  "version": "0.0.0",
+
+  "dependencies": {
+    "@carsnag/datastore": "file:../datastore"
+  }
+}

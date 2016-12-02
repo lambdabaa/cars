@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "carsnag-gae",
+  "private_key_id": "2056769e8fea45beea36594c57a0f296a33b9ea0",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDJvn5aoWk02lJH\nk8Oz8sHpSPQuBEDTAcpYgUqhWhKfljgdpNLhDIJ+bDow6Olwxoy7bvfVah2a0nDe\nvt8Lwz3MBYBwXrEjN6jXJiouX0p/KhCDrzWI6WqGN6+ZqlCumknvICpNA+lJSsL7\nby01SQns5B5peWv+PYM8XRj15HsVrs+K9Z6FcR7SdZGbWvXXlGZv+ojNKknyFHJA\n3y4F4z9aFAjyRrVbM++q+LMf4JA27koDJ+mFfiHjhEo6POCxbWlaWqAFQrE+fpHl\nV3oz8wZz22aN+Vh11yHpH4fUU15gGCmZgxIKiKMTOsKlGeEIrDyEjpLkSQSH4+bg\ng5GLS6wVAgMBAAECggEAV/XEZYOGuVKPGUIly6mGPk5emEmmcdmP/bKxdVQuVoJK\niTI594FazAAoBvcmANOwvHAPgm835S7no1aZLSm9Id0sONIwbWhxJw0uyvUlJ/iR\nJrkXoFAU79wLpfYKI3aF0cq2ZsnTxu7fwHyiu17TAwQa9mXIXhs3wvPcVCmAON0u\n1zaNSAY8vfRKVDfHDOF1Jga/hgG5vuKZJeI604n5edi6ExE6WK2ueI5sbLbWeVOC\nMqDIDdYLbSmZaLY4+KXMDuXiJ1LPXqlOgMDd4WVH3qTEvw1T2fB6rDYXFOxIDo6C\n1jrX5wiOPcIZagyk4zKvYMSfzwT74lEIrliTy+mfaQKBgQDkscr6zcYibun3qxow\nmAKttAzBuZeSA0HYJaP+n1KHMAAwA9olmQbt5IRgCyd/u5KWNWbQvP0dUIRCK1/9\nDWNMNR5M94sXx8u1PCEMmgl9m1niM8kNLltRWX1ZoXYdA7RDpJfp0KrF4CT3yiRa\nSaiy7ugOPTN4PAulGe8tifEBhwKBgQDh1PF5tirF4SBEhFj3hXty5JGS2wLxjY7+\n4AQ5HU7J3oy5vL4dByS35UQY7PNgymV43nII5ukcxWnMcNgJQvf99hMxOxPx0u+8\n+xHHg2oNQ2a8Br33dq1/NJVW3UYa3VyXzthJst2MS5OWPt8aIFUYxnphSPOoAR3q\nKQw+1pH8gwKBgQCDTDgXCjDo7/jPwqJEp+FRzP9N8bm9kLUq3WFr/BirmLli17NU\nxqidyAbgBUdmJFCigIJI8Vf4jpOAUdrIM/mAdTayRaTLwF+J672luIIeZSSTo9uX\n/7dZ2yEGZpajTc8ezs6Q5MZG2MsgoCOC2qtKH7OHCUgVjZO59EvHP1zo3QKBgQC/\n90BRAr33OTgxpgLuXQQkFRF9sTgeVwOvuoM8faJEzS34kO1WRYU74OJzAbCcnU+G\nYCi1Unvj3hfiFiY+MTQXKD8GQT7h+Dmb/hwN6bKTlbDVsjF3EuXGVM+BaFS4b2TP\nEqAefbIAGRpaxBTn44YSqlzLJ7UfIdvo+X2USNcNuwKBgDmEqZx2LGQguINUYNYz\njT7EL55kLcFFMOfpowypn6kYbQQ/W6gRd9QpelfjIC9eOIJ26hdgQ4GqBbITGRCI\ncoPYvzfM23UpOuBgXHUa310fqAEy4R+AaTbY80tfFholf+ksIqHrRnap5YHQbZm5\n+0i39aVgj4vnXjhlh8DwuOGR\n-----END PRIVATE KEY-----\n",
+  "client_email": "carsnag-datastore@carsnag-gae.iam.gserviceaccount.com",
+  "client_id": "105675971742953992122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://accounts.google.com/o/oauth2/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/carsnag-datastore%40carsnag-gae.iam.gserviceaccount.com"
+}

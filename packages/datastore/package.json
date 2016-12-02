@@ -1,0 +1,9 @@
+{
+  "name": "@carsnag/datastore",
+  "version": "0.0.0",
+
+  "dependencies": {
+    "@google-cloud/datastore": "0.5.0",
+    "babel-polyfill": "6.16.0"
+  }
+}
