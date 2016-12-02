@@ -1,6 +1,7 @@
 // @flow
 
 const programs = {
+  countCraigslistFields: require('./countCraigslistFields'),
   listCraigslistCars: require('./listCraigslistCars')
 };
 

@@ -5,7 +5,7 @@ const datastore = require('@carsnag/datastore');
 function main(): void {
   const stream = datastore.craigslistCars.stream();
 
-  stream.on('data', car => {
+  stream.on('data', (car: Object) => {
     console.log(JSON.stringify(car));
   });
 

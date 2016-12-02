@@ -4,6 +4,7 @@
   "bin": "./build/admin.js",
 
   "dependencies": {
-    "@carsnag/datastore": "file:../datastore"
+    "@carsnag/datastore": "file:../datastore",
+    "lodash": "4.17.2"
   }
 }
