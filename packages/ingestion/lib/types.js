@@ -8,6 +8,16 @@ export type Car = {
   tagline: string;
 };
 
+export type CarDetails = {
+  body: string;
+  images: Array<string>;
+  location: string;
+  price: number;
+  tagline: string;
+  url: string;
+  details: Object;
+};
+
 export type FetchResponse = {
   body: string;
   status: number;
