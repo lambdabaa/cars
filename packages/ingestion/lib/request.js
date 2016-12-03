@@ -3,7 +3,7 @@
 import {FetchResponse} from './types';
 
 const AWS = require('aws-sdk');
-const debug = console.log.bind(console, '[carsnag/common/request]');
+const debug = console.log.bind(console, '[ingestion]');
 const defaults = require('./config');
 const jsdom = require('jsdom');
 const promisify = require('./promisify');

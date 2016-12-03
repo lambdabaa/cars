@@ -1,25 +1,13 @@
 // TODO: Flow is currently complaining about objectMode streams...
 
-const debug = console.log.bind(console, '[carsnag/craigslist/listCars]');
+import type {Car, ListCarsResponse} from './types';
+
+const debug = console.log.bind(console, '[ingestion]');
 const dom = require('./dom');
 const drain = require('./drain');
 const request = require('./request');
 const stream = require('stream');
 const url = require('url');
-
-type Car = {
-  datetime: string;
-  hood: string;
-  host: string;
-  href: string;
-  pid: number;
-  price: string;
-  tagline: string;
-};
-
-type ListCarsResponse = {
-  cars: Array<Car>;
-};
 
 class CarStream extends stream.Readable {
   craigslist: string;
@@ -82,7 +70,7 @@ function serializeCarElement(car: HTMLElement): Car {
 async function listCars(event: Object): Promise<ListCarsResponse> {
   const stream = new CarStream(event.target);
   const cars = await drain(stream);
-  return callback(null, {cars});
+  return {cars};
 }
 
 module.exports = listCars;
